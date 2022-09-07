@@ -6,7 +6,7 @@ Using this platform users can explore the new blogs from different categories. T
 This platform is made using [DhiWise](https://www.dhiwise.com/) and the open APIs of [Dev.to](https://developers.forem.com/api/#operation/getUserArticles), and [Medium](https://github.com/Medium/medium-api-docs#readme).
 
 ## Table of Contents
----
+
 - [Features in Weblog](#features-provided-in-weblog)
 - [Setup](#setup)
 - [Version of Technologies](#version-of-technologies)
@@ -16,7 +16,7 @@ This platform is made using [DhiWise](https://www.dhiwise.com/) and the open API
 - [Community](#community)
 
 ## Features provided in Weblog
----
+
 In Weblog, users can explore different blogs from the Dashboard. There is also a recommended topics list on the Dashboard. Using this list users can find blogs on a particular topic.
 
 ![Dashboard](Dashboard.jpg)
@@ -53,21 +53,15 @@ You will also see any lint errors in the console.
 
 ## Clone Project
 
----
-
 To clone a project firstly choose the directory to clone the project. Then open the terminal at the location and run the below commands.
 
     git clone <Github link here For future>
 
 ## Tokens required to run the project
 
----
-
 In order to run this project, user needs Dev.to and Medium api key.
 
 ## Dev.to
-
----
 
 For Dev.to Api key firstly go to Dev.to then go to settings, goto [extensions](https://dev.to/settings/extensions) scroll down to Generate a new Key.
 Enter your application name and click on the Generate a new Key.
@@ -84,8 +78,6 @@ For Api.js file Goto src folder -> goto service folder -> Api.js
 
 ## Medium
 
----
-
 For Medium Token go to Medium then click on the profile icon on the left bottom side of the screen. Now go to [setting](https://medium.com/me/settings) select integration token.
 
 Into Integration, tokens enter the description for your application and click on the integration token button copy that key and
@@ -101,8 +93,6 @@ For Api.js file Goto src folder -> goto service folder -> Api.js
 
 ## Running the storybook
 
----
-
 We have detected common components and have generated possible variants of it. To check the documentation of generated common components by integrating storybook, Please follow below steps.
 
 ## Install and Initializes
@@ -114,8 +104,6 @@ We have detected common components and have generated possible variants of it. T
       npm run storybook
 
 ## Version of Technologies
-
----
 
 - [git](https://git-scm.com/) - v2.13 or greater
 - [NodeJS](https://nodejs.org/en/) - `12 || 14 `
@@ -186,8 +174,6 @@ Below are all the dependencies that were used in the project.
 
 ## License
 
----
-
 MIT License
 
 Copyright (c) 2022 DhiWise
@@ -211,8 +197,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Community
-
----
 
 <a href="https://twitter.com/dhiwise"><img src="https://user-images.githubusercontent.com/35039342/55471524-8e24cb00-5627-11e9-9389-58f3d4419153.png" width="60" alt="DhiWise Twitter"></a>
 <a href="https://www.youtube.com/c/DhiWise"><img src="https://cdn.vox-cdn.com/thumbor/0kpe316UpZWk53iw3bOLoJfF6hI=/0x0:1680x1050/1400x1400/filters:focal(706x391:974x659):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/56414325/YTLogo_old_new_animation.0.gif" width="60" alt="DhiWise YouTube"></a>
