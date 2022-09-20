@@ -19,17 +19,16 @@ This platform is made using [DhiWise](https://www.dhiwise.com/) and the open API
 
 In Weblog, users can explore different blogs from the Dashboard. There is also a recommended topics list on the Dashboard. Using this list users can find blogs on a particular topic.
 
-![Dashboard](Dashboard.jpg)
+![Dashboard](screenshots/Dashboard.png)
 
 Users can check out his Dev.to profile and the blogs he has posted from the Dev profile page. Moreover, for the Medium profile users can check out his profile and the publications he has followed from the Medium profile page.
 
-![Dev.to Profile](DevProfile.jpg)
-![Medium Profile](MediumProfile.jpg)
+![Dev.to Profile](screenshots/devto_profile.png)
+![Medium Profile](screenshots/Medium_profile.png)
 
 Users can post the blog on their Dev.to and Medium profile from the write on dev.to and write on medium pages. The user just needs to enter the details of his blog and click on publish button will publish his blog on the respective platform.
 
-![Write on medium](MediumPost.jpg)
-![Write on dev.to](devPost.jpg)
+![Write on medium](screenshots/Write_Medium.png)
 
 # Setup
 
@@ -55,7 +54,7 @@ You will also see any lint errors in the console.
 
 To clone a project firstly choose the directory to clone the project. Then open the terminal at the location and run the below commands.
 
-    git clone <Github link here For future>
+    git clone <GitHub_Repo_Link_Here>
 
 ## Tokens required to run the project
 
@@ -66,7 +65,7 @@ In order to run this project, user needs Dev.to and Medium api key.
 For Dev.to Api key firstly go to Dev.to then go to settings, goto [extensions](https://dev.to/settings/extensions) scroll down to Generate a new Key.
 Enter your application name and click on the Generate a new Key.
 
-Copy the key and paste that key into the api.js file. Enter this key at the location of "Please Enter Dev.to API key here".
+Copy the key and paste that key into the api.js file. Enter this key at the location of "Enter_your_Dev_to_API_Key_here".
 For Api.js file Goto src folder -> goto service folder -> Api.js
 
 ```
@@ -81,7 +80,7 @@ For Api.js file Goto src folder -> goto service folder -> Api.js
 For Medium Token go to Medium then click on the profile icon on the left bottom side of the screen. Now go to [setting](https://medium.com/me/settings) select integration token.
 
 Into Integration, tokens enter the description for your application and click on the integration token button copy that key and
-paste that key into the api.js file. Enter this key at the location of "Please Enter Medium API key here".
+paste that key into the api.js file. Enter this key at the location of "Enter_your_Medium_integration_token_here".
 For Api.js file Goto src folder -> goto service folder -> Api.js
 
 ```
